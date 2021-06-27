@@ -23,3 +23,5 @@ sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xU
 sudo apt update
 sudo apt install albert
 ```
+
+Next steps coming soon....
