@@ -1,8 +1,5 @@
-
-
-cp config.json outline/config.json
-
-sudo rm -rf /usr/share/albert/org.albert.extension.python/modules/outline
+# Removes the old installation (if it exists)
+sudo rm -rf /usr/share/albert/org.albert.extension.python/modules/outline || true
 
 cp outlineSearch.py outline/__init__.py
 
